@@ -3,11 +3,11 @@ Aplicación web para generar cotizaciones legales automáticas con integración 
 
 ## Instalación
 1. Clonar el repositorio con gitbash```git clone https://github.com/LuisPuicon560/castaneda-capital-farmer-exam.git```
-2. virtualenv -p python3 env
-3. .\env\Scripts\actívate
-4. pip install -r requirements.txt
-5. Dirigir a app.py y agregar clave api en openrouter.ai
-6. python app.py
+3. virtualenv -p python3 env
+4. .\env\Scripts\actívate
+5. pip install -r requirements.txt
+6. Dirigir a app.py y agregar clave api en openrouter.ai
+7. python app.py
 
 ## Uso
 - Acceder a http://localhost:5000
@@ -16,6 +16,10 @@ Aplicación web para generar cotizaciones legales automáticas con integración 
 
 ## APIs utilizadas
 - Api DeepSeek -r1:free
+
+## NPM utilizadas
+- Flask
+- OpenAi
 
 ## Estructura del proyecto
 .
